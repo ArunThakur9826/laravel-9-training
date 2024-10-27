@@ -54,7 +54,7 @@ use App\Http\Controllers\MailChimpController;
     Route::get('/', function () {
         return view('welcome');
     });
-    Route::get('/chekc', function () {
+    Route::get('/check', function () {
         return view('welcome');
     });
 
